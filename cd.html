@@ -1,0 +1,28 @@
+<script>
+    let timeLeft = 60;
+let timerId = null;
+const timerDisplay = document.getElementById('timer');
+const startBtn = document.getElementById('start');
+const resetBtn = document.getElementById('reset');
+
+startBtn.addEventListener('click', () => {
+  if (timerId === null) {
+    timerId = setInterval(() => {
+      timeLeft--;
+      timerDisplay.textContent = timeLeft;
+      
+      if (timeLeft <= 0) {
+        clearInterval(timerId);
+        timerId = null;
+      }
+    }, 1000);
+  }
+});
+
+resetBtn.addEventListener('click', () => {
+  clearInterval(timerId);
+  timerId = null;
+  timeLeft = 60;
+  timerDisplay.textContent = timeLeft;
+});
+</script>

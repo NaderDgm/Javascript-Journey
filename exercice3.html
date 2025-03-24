@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Exercice Fouad Issouani</title>
+    </head>
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        img{
+            position: absolute;
+            object-fit: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+          
+                        
+        }
+        form:hover{
+            border: 10px solid rgb(46, 49, 255);
+
+        }
+        form{
+            width: 20%;
+            position: relative;
+            border: 10px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 10px;
+        }
+        input{
+            position: relative;
+            color: rgb(0, 0, 0);
+            margin: 10px;
+            width: 90%;
+        }
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: darkblue;
+            color: white;
+
+        }
+    </style>
+    <body>
+        <img src="j.jpg" width="100" height="100" >
+        <form>
+            <h1>Calculatrice</h1>
+            <input type="text" id="n1" name="Number1" placeholder="Number1"><br>
+            <input type="text" id="n2" name="Number2" placeholder="Number2">
+            <br>
+            <button type="button" onclick="somme()">(+ La somme)</button>
+        </form>
+    </body>
+    <script type="text/javascript" src="exerciceJs.js"></script>
+</html>

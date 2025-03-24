@@ -1,0 +1,100 @@
+<head>
+    <title>Javascript</title>
+    <h1 style="font-family: sans-serif;
+    font-size: 30px; text-align: center; color: red;
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px;">
+        Function et local var et local let "scope" Javascript
+    </h1>
+    <body style="background-color:whitesmoke;">
+            <p style="background-color: greenyellow; 
+            border-radius: 10px;
+            padding: 20px; font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            text-align: center;">var globalvar="je suis une variable globale";
+                <br>
+                let globallet="je suis une variable globale"; 
+                <br>
+                console.log(globalvar);
+                <br>
+                console.log(globallet);
+                <br>
+                function test(){
+                    <br>
+                    var localvar="je suis une variable local";
+                    <br>
+                    let locallet="je suis une let local";
+                    <br>
+                if(true){
+                    <br>
+                    var localvar="Redefinie localvar";
+                    <br>
+                    console.log(localvar);
+                    <br>
+                }
+                <br>
+                console.log(localvar);
+                <br>
+                if(true){
+                    <br>
+                    let locallet="Redefinie locallet";
+                    <br>
+                    console.log(locallet);
+                    <br>
+                }
+                <br>
+                console.log(locallet);
+                <br>
+                }
+                <br>
+                //console.log(localvar);
+                <br>
+                //console.log(locallet);
+                <br>
+                test();</p>
+                <br>
+
+    </body>
+</head>
+<script>
+//function Mafonction(arg1,arg2){let}
+//{
+    //instruction1;
+    //instruction2;
+    //return mavar;
+//}
+</script>
+<script>
+//function calcTVA(prix,TVA)
+//{let prixacevTVA=prix*(1+TVA/100);
+//return prixacevTVA;
+//}
+//let prixHT=1000;
+//let tauxTVA=20;
+//let prixTTC=calcTVA(prixHT,tauxTVA);
+//console.log("Prix:",prixHT,"TVA",tauxTVA,"TOTAL:",prixTTC);
+</script>
+<script>
+var globalvar="je suis une variable globale";
+let globallet="je suis une variable globale"; 
+console.log(globalvar);
+console.log(globallet);
+function test(){
+    var localvar="je suis une variable local";
+    let locallet="je suis une let local";
+if(true){
+    var localvar="Redefinie localvar";
+    console.log(localvar);
+}
+console.log(localvar);
+if(true){
+    let locallet="Redefinie locallet";
+    console.log(locallet);
+}
+console.log(locallet);
+}
+//console.log(localvar);
+//console.log(locallet);
+test();
+</script>
