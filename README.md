@@ -71,15 +71,12 @@ Long-term: Become a full-stack JavaScript developer
 Progress Log
 (This section will be updated regularly with learning milestones)
 
-Date: Accomplishment or concept learned
-Date: Accomplishment or concept learned
-
 Contact
 Feel free to reach out with suggestions or to discuss JavaScript:
 
-GitHub: [YourGitHubUsername]
-Twitter: [YourTwitterHandle]
-Email: [YourEmail]
+GitHub: [NaderDgm]
+Twitter: [NaderDgm]
+Email: [naderdoghmi609@gmail.com]
 
 
 Remember: The best way to learn is by doing. Code every day, even if just for 15 minutes!
